@@ -1,0 +1,193 @@
+div#top {
+	border:1px solid #222;
+	border-width:0 1px;
+	}
+
+div#head a {
+	color:#04486f;
+	text-decoration:none;
+	}
+div#head a:visited {
+	color:#658496;
+	}
+div#head a:hover {
+	color:#920505;
+	}
+
+
+div#head {
+    font:normal 80% Verdana, Helvetica, sans-serif;
+	margin:0 auto;
+	padding:0;
+	background:#EBE7D7;
+	width:100%;
+}
+p#penfold {
+	float:left;
+	margin:0;
+	padding:5px;
+	width:490px;
+	color:#777;
+	font-size:1.4em;
+	text-transform:lowercase;
+	}
+p#sextant {
+	float:right;
+	margin:0;
+	padding:5px;
+	width:190px;
+	color:#777;
+	font-size:1.4em;
+	text-transform:lowercase;
+	text-align:right;
+	}
+h1 {
+	clear:both;
+	margin:0;
+	padding:0;
+	border:1px solid #555;
+	border-width: 1px 0px;
+	background: #F8F5EE;
+	}
+h1 a {
+	display:block;
+	width:100%;
+	height:65px;
+	background:url(images/brand.jpg) no-repeat top right;
+	}
+h1 span {
+	display:block;
+	margin:0;
+	padding:0;
+	text-indent:-1000em;
+	}
+ul#gamebuttons {
+        float:left;
+        width:150px;
+        margin:0;
+        padding:0;
+        }
+
+ul#gamebuttons li {
+        margin:0;
+        padding:0;
+        float:left;
+        list-style-type:none;
+        }
+ul#gamebuttons a {
+        display:block;
+        width:42px;
+        height:42px;
+        background:url(images/game_matrix.gif) no-repeat;
+        }
+ul#gamebuttons li.mythi a {
+        background-position:0 -84px;
+        }
+ul#gamebuttons li.mythi a:hover {
+        background-position:0 -42px;
+        }
+body.mythi ul#gamebuttons li.mythi a {
+        background-position:0 0;
+        }
+ul#gamebuttons li.mythii a {
+        background-position:-42px -84px;
+        }
+ul#gamebuttons li.mythii a:hover {
+        background-position:-42px -42px;
+        }
+body.mythii ul#gamebuttons li.mythii a {
+        background-position:-42px 0;
+        }
+ul#gamebuttons li.mythiii a {
+        background-position:-84px -84px;
+        }
+ul#gamebuttons li.mythiii a:hover {
+        background-position:-84px -42px;
+        }
+body.mythiii ul#gamebuttons li.mythiii a {
+        background-position:-84px 0;
+        }
+
+ul#gamebuttons span {
+        display:block;
+        margin:0;
+        padding:0;
+        text-indent:-1000em;
+        }
+
+form#tainsearch {
+        float:right;
+        margin:0;
+        padding:0;
+        text-align:right;
+        }
+form#tainsearch fieldset {
+        margin:0;
+        padding:10px 0;
+        }
+form#tainsearch label {
+        float:left;
+        margin:5px 10px 0 0;
+        }
+
+form#tainsearch span.search input {
+        padding:2px !important;
+        padding:0 2px 3px;
+        margin:1px !important;
+        margin:0 1px;
+        width:200px;
+        border:1px #D7D2C3 solid;
+        font:normal 12.8px "Lucida Grande", Verdana, Helvetica, sans-serif;
+        }
+form#tainsearch span.search {
+        float:left;
+        border:1px solid #D7D2C3;
+        margin:0 10px 0 0;
+        }
+form#tainsearch select {
+        float:left;
+        margin:3px 10px 0 0;
+        padding:0;
+        font-size:12.8px;
+        }
+#wrap {
+	width: 700px;
+	margin:  0px auto;
+	padding:  0px;
+	border:  1px solid black;
+	border-top: 0;
+	border-bottom: 0;
+	background:#EBE7D7;
+}
+body, html {
+	padding: 0px;
+	background-color: #798999;
+}
+div#page-header {
+	border-top: 1px solid black;
+	clear: both;
+}
+div#page-body, div#page-header, div#page-footer {
+	padding: 10px 10px 0px;
+	margin-top:  0px;
+	margin-bottom:  0px;
+	background-color: #f9f6ef;
+}
+p {
+	margin-bottom:  0px;
+	padding-bottom: 1.5em;
+}
+.forabg {
+	/*background-color: #6e9f62;*/
+	background-image: none;
+}
+.attachbox {
+	width:  100%;
+	overflow:  auto;
+}
+.content {
+	overflow:  auto;	
+}
+#tz {
+	width:  450px !important;
+}

@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #5f6476;
-	background-color: #2b2b2b;
+	background-color: #798999;
 }
 
 h1 {
@@ -91,11 +91,11 @@ a:hover { color: #2A63BA; }
 }
 
 .forumbg,.forabg {
-	background-color: #862c23;
+	background-color: #798999;
 }
 
 .navbar {
-	background-color: #eeeeee;
+	background-color: #cadceb;
 }
 
 .panel {
@@ -274,14 +274,6 @@ dl.details dd {
 
 /* Miscellaneous styles
 ---------------------------------------- */
-
-.copyright {
-	color: #888888;
-}
-
-.copyright a {
-	color: #FFF;
-}
 
 .error {
 	color: #BC2A4D;

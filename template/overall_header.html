@@ -85,6 +85,7 @@
 </head>
 <body id="phpbb" class="nojs notouch section-{SCRIPT_NAME} {S_CONTENT_DIRECTION} {BODY_CLASS}">
 
+<!--
 <!-- EVENT overall_header_body_before -->
 		<div class="headerbar" role="banner">
 		<!-- EVENT overall_header_headerbar_before -->
@@ -120,9 +121,41 @@
 			<!-- EVENT overall_header_headerbar_after -->
 		</div>
 		<!-- EVENT overall_header_navbar_before -->
+-->
 
 <div id="wrap" class="wrap">
 	<a id="top" class="top-anchor" accesskey="t"></a>
+
+
+	<div id="head">
+		<a name="top"></a>
+		<!-- IF S_USER_LOGGED_IN -->
+		<p id="penfold"><a href="{U_LOGIN_LOGOUT}" title="{S_USERNAME} | {L_LOGIN_LOGOUT}" accesskey="l">{S_USERNAME} | {L_LOGIN_LOGOUT}</a></p>
+		<!-- ELSE -->
+		<p id="penfold"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="l">{L_LOGIN_LOGOUT}</a></p>
+		<!-- ENDIF -->
+		<p id="sextant"><a href="/sitemap/" title="The Tain sitemap">Sitemap</a></p>
+		<h1><a href="/" title="The Tain front page"><span>The Tain</span></a></h1>
+		<ul id="gamebuttons">
+			<li class="mythi"><a href="/mythi" title="Full Myth: The Fallen Lords index"><span>Myth: The Fallen Lords</span></a></li>
+			<li class="mythii"><a href="/mythii" title="Full Myth II: Soulblighter index"><span>Myth II: Soulblighter</span></a></li>
+			<li class="mythiii"><a href="/mythiii" title="Full Myth III: The Wolf Age index"><span>Myth III: The Wolf Age</span></a></li>
+		</ul>
+		<form id="tainsearch" method="get" action="/search/">
+			<fieldset>
+				<label for="query"><input type="image" src="{T_THEME_PATH}/images/search.gif" title="Search The Tain archives" alt="Search" style="width:52px; height:12px; border:0"/></label>
+				<span class="search"><input id="query" type="text" size="20" name="q" /></span>
+				<select id="restrict" size="1" name="for">
+					<option value="any">All</option>
+					<option value="forum" selected="selected">Forum</option>
+					<option value="mythi">Myth I</option>
+					<option value="mythii">Myth II</option>
+					<option value="mythiii">Myth III</option>
+				</select>
+			</fieldset>
+		</form>
+	</div>
+
 	<div id="page-header">
 		<!-- INCLUDE navbar_header.html -->
 	</div>
